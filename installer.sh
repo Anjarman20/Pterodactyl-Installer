@@ -721,6 +721,7 @@ send_phpmyadmin_summary(){
     echo "    Preselected webserver: NGINX"
     echo "    SSL: $PHPMYADMIN_SSLSTATUS"
     echo "    User: $PHPMYADMIN_USER_LOCAL"
+    echo "    User: $PHPMYADMIN_USER"
     echo "    Email: $PHPMYADMIN_EMAIL"
     echo ""
 }
